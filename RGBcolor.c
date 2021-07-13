@@ -30,7 +30,7 @@ void screen()
 	drawstring(120.0,460.0,0.0," CGV Lab. Mini Project");
 	drawstring(120.0,435.0,0.0,"on ''RGB COLORS''");
 	glColor3f(1.0,0.0,0.0);
-	drawstring(120,375,0.0,"6th sem CSE");
+	drawstring(120,375,0.0,"6th sem CSE,SVIT");
 	drawstring(50,350,0.0,"Name:TEJAS MANU S        USN:1VA18CS052 ");
 	drawstring(50,325,0.0,"Name:SUHAS M             USN:1VA18CS048 ");
 	drawstring(50,325,0.0,"Name:AISHWARYA           USN:1VA19CS400 ");
