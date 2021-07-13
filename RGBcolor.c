@@ -28,7 +28,7 @@ void screen()
 {
 	glColor3f(0.0,0.0,1.0);
 	drawstring(120.0,460.0,0.0," CGV Lab. Mini Project");
-	drawstring(120.0,435.0,0.0,"on ''RGB COLORS''");
+	drawstring(120.0,435.0,0.0,"on ''ADDITIVE COLOR MODEL''");
 	glColor3f(1.0,0.0,0.0);
 	drawstring(120,375,0.0,"6th sem CSE,SVIT");
 	drawstring(50,350,0.0,"Name:TEJAS MANU S        USN:1VA18CS052 ");
