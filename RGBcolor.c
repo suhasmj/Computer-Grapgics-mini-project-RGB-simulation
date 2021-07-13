@@ -27,18 +27,20 @@ void drawstring(float x,float y,float z,char *string)
 void screen()
 {
 	glColor3f(0.0,0.0,1.0);
-	drawstring(120.0,460.0,0.0,"CGV Lab. Mini Project");
-	drawstring(120.0,435.0,0.0,"on ''ADDITIVE COLORS''");
+	drawstring(120.0,460.0,0.0," CGV Lab. Mini Project");
+	drawstring(120.0,435.0,0.0,"on ''RGB COLORS''");
 	glColor3f(1.0,0.0,0.0);
-	drawstring(120,375,0.0,"By: ANIMATORS");
-	drawstring(50,350,0.0,"Name:     USN");
-	drawstring(50,325,0.0,"Name:       USN");
+	drawstring(120,375,0.0,"6th sem CSE");
+	drawstring(50,350,0.0,"Name:TEJAS MANU S        USN:1VA18CS052 ");
+	drawstring(50,325,0.0,"Name:SUHAS M             USN:1VA18CS048 ");
+	drawstring(50,325,0.0,"Name:AISHWARYA           USN:1VA19CS400 ");
+	drawstring(50,325,0.0,"Name:SHARATH GOWDA P     USN:1VA18CS042 ");
 	glColor3f(1.0,1.0,1.0);
-	drawstring(120,260,0.0,"Under The Guidance of:");
-	drawstring(155,230,0.0,"Prof:");
+	drawstring(120,260,0.0,"   Under The Guidance of:");
+	drawstring(155,230,0.0,"Prof:SYED MATHEEN PASHA");
 	glColor3f(0.0,1.0,1.0);
 	drawstring(50,100,0.0,"Department of Computer Science And");
-	drawstring(50,75,0.0,"Engineering Academic Year:2014-15");
+	drawstring(50,75,0.0,"      Engineering      ");
 	glColor3f(rand()%2,rand()%2,0.0);
 	drawstring(250,20,0.0,"Press 'e' to start");
 glFlush();
@@ -66,14 +68,14 @@ void keyboard(unsigned char key, int x, int y)
 				flag6=0;
 				glutPostRedisplay();	
 				break;
-		case 'M':flag=0;//move
+		case 'M':flag=0;          //move
 				if(rx==100&&ry==100||gx==100&&gy==100||bx==100&&by==100)
 			 flag6=0;
 			 	else flag6=1;
 				glutPostRedisplay();	
 				break;
 		case 's':
-		case 'S':  //s=3;
+		case 'S':                 //s=3;
 				flag1=1;
 				if (s==0.0) 	
 				{
@@ -90,7 +92,7 @@ void keyboard(unsigned char key, int x, int y)
 				glutPostRedisplay();
 				break;
 		case 'e':
-		case 'E': flag3=1;//Enter the project Screen
+		case 'E': flag3=1;                              //Enter the project Screen
 					break;
 		case 'a':
 		case 'A':s=0;
