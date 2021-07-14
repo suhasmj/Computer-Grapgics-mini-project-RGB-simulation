@@ -33,11 +33,11 @@ void screen()
 	drawstring(120,375,0.0,"6th sem CSE,SVIT");
 	drawstring(50,350,0.0,"Name:TEJAS MANU S        USN:1VA18CS052 ");
 	drawstring(50,325,0.0,"Name:SUHAS M             USN:1VA18CS048 ");
-	drawstring(50,325,0.0,"Name:AISHWARYA           USN:1VA19CS400 ");
-	drawstring(50,325,0.0,"Name:SHARATH GOWDA P     USN:1VA18CS042 ");
+	drawstring(50,300,0.0,"Name:AISHWARYA           USN:1VA19CS400 ");
+	drawstring(50,275,0.0,"Name:SHARATH GOWDA P     USN:1VA18CS042 ");
 	glColor3f(1.0,1.0,1.0);
-	drawstring(120,260,0.0,"   Under The Guidance of:");
-	drawstring(155,230,0.0,"Prof:SYED MATHEEN PASHA");
+	drawstring(120,230,0.0,"   Under The Guidance of:");
+	drawstring(120,200,0.0,"Prof:SYED MATHEEN PASHA");
 	glColor3f(0.0,1.0,1.0);
 	drawstring(50,100,0.0,"Department of Computer Science And");
 	drawstring(50,75,0.0,"      Engineering      ");
